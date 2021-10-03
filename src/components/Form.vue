@@ -58,7 +58,7 @@ export default {
     checkForm() {
         let self= this
       try {
-        const api = "http://localhost:3123/url";
+        const api = "/api/url";
         axios
           .post(api, {
             url: this.url,
